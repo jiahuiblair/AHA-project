@@ -9,13 +9,17 @@ The analysis identified several critical determinants of hospital spending (p < 
 💡Discussion & Impact 
 This project demonstrates that Machine Learning-based multiple imputation significantly improves data completeness and accuracy in healthcare operations research. The findings provide a data-driven foundation for policymakers to address geographic inequities and optimize resource allocation.
 
-Workflow (AHA_Selected final features.R)
-1. Cleaning up the dataset
-2. Defining the complete feature and incomplete feature lists
-3. Understand the missingness in the feature (missing values analysis and plot the missing value pattern)
-4. Find correlation between different types of features (continuous and categorical)
-5. Descriptive analysis
-6. Imputed the data with MICE and RF
-7. Fit the regression model to predict the hospital facility expenditures
-8. Diagnose the regression model and model evaluation
-9. Pool the results from all imputed dataset regession model
+Workflow 
+1. Cleaning up the dataset (AHA_Selected final features.R)
+2. Defining the complete feature and incomplete feature lists (AHA_Selected final features.R)
+3. Understand the missingness in the feature (missing values analysis and plot the missing value pattern) (AHA_Selected final features.R)
+4. Find correlation between different types of features (continuous and categorical) (AHA_Selected final features.R)
+5. Descriptive analysis (AHA_Selected final features.R)
+6. Imputed the data with MICE and RF (AHA_Selected final features.R)
+7. Fit the regression model to predict the hospital facility expenditures (AHA_Selected final features.R)
+8. Diagnose the regression model and model evaluation (AHA_Selected final features.R)
+9. Pool the results from all imputed dataset regession model (AHA_Selected final features.R)
+10. Plot the key features that can predict the hospital facility expenditure in geographic plot (LocationPlot_impute.R)
+
+    <img width="870" height="1255" alt="image" src="https://github.com/user-attachments/assets/292d8730-f11d-47da-bafc-722388a59560" />
+
